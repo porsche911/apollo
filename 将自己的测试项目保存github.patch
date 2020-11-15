@@ -1,0 +1,16 @@
+Index: thread/src/main/java/algorithm/Tree/l104/Test.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- thread/src/main/java/algorithm/Tree/l104/Test.java	(revision c6d53d7e53db563a333090bbfde12dc9a45544d9)
++++ thread/src/main/java/algorithm/Tree/l104/Test.java	(date 1605401439278)
+@@ -5,7 +5,7 @@
+         TreeNode node = new TreeNode(3);
+         node.left= new TreeNode(11);
+         node.right=new TreeNode(20);
+-        node.right.left = new TreeNode(16);
++        node.right.left = new TreeNode(1);
+         node.right.right = new TreeNode(7);
+         Solution solution = new Solution();
+         //int i = solution.maxDepth1(node);
