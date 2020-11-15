@@ -5,7 +5,7 @@ public class Test {
         TreeNode node = new TreeNode(3);
         node.left= new TreeNode(11);
         node.right=new TreeNode(20);
-        node.right.left = new TreeNode(16);
+        node.right.left = new TreeNode(1);
         node.right.right = new TreeNode(7);
         Solution solution = new Solution();
         //int i = solution.maxDepth1(node);
